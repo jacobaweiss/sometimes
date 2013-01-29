@@ -42,7 +42,7 @@ Maybe you want to do something several times, but not always the exact same numb
 (4..10).times do
   pick_nose  # between 4 and 10 boogers made, it's unpredictable!
 end
-``` 
+```
 
 Maybe you want to remind someone of something, but not toooo often (It gets annoying!)
 
@@ -52,7 +52,7 @@ Maybe you want to remind someone of something, but not toooo often (It gets anno
 end
 
 33.percent_of_the time do
-  be_very_polite  
+  be_very_polite
 end
 ```
 
@@ -68,8 +68,16 @@ end
 end
 ```
 
+Do something almost all of the time
+
+```ruby
+mostly do
+  puts "Mama said knock you out!"  # 95% of the time, LL Cool J will obey his mom
+end
+```
+
 ## Why?
 
-This gem was made so [alonetone](http://github.com/sudara/alonetone) could bit more fun when displaying notices and communicating to our users. 
+This gem was made so [alonetone](http://github.com/sudara/alonetone) could bit more fun when displaying notices and communicating to our users.
 
 We are human, and have personality. Shouldn't our applications reflect this? Be predictable where it counts. But toss in some spice here and there — it is always a good thing. 
